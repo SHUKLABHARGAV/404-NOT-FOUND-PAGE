@@ -1,0 +1,158 @@
+ h2 {
+     width: 155px;
+     height: 25px;
+     font-family: 'Inconsolata', monospace;
+     color: #333333;
+     top: 40px;
+     left: 77px;
+     font-size: 24px;
+     font-weight: 700;
+     position: absolute;
+     font-style: normal;
+     line-height: 25px;
+     text-transform: uppercase;
+     letter-spacing: -0.08rem;
+
+ }
+
+ .image, img {
+     display: flex;
+     position: absolute;
+     width: 539.22p;
+     height: 414.25px;
+     padding-top: 50px;
+
+
+ }
+
+ img {
+     cursor: pointer;
+     top: 87px;
+     left: 77px;
+ }
+
+ h3 {
+     position: absolute;
+     width: 512px;
+     height: 190px;
+     left: 726px;
+     top: 133px;
+     font-weight: 700;
+     font-size: 64px;
+     line-height: 70px;
+     letter-spacing: -0.035em;
+     font-family: 'Space Mono', monospace;
+     color: #333333;
+ }
+
+ h4 {
+     position: absolute;
+     width: 246px;
+     height: 108px;
+     top: 333px;
+     left: 735px;
+     color: #4F4F4F;
+     font-family: 'Space Mono', monospace;
+
+ }
+
+ .btn {
+     position: absolute;
+     width: 216px;
+     height: 68px;
+     left: 740px;
+     top: 441px;
+     text-transform: uppercase;
+     background-color: #333333;
+     color: white;
+     cursor: pointer;
+ }
+
+ p {
+     position: absolute;
+     width: 350px;
+     height: 17px;
+     left: 577px;
+     top: 616px;
+     font-style: normal;
+     font-weight: 500;
+     font-size: 14px;
+     line-height: 17px;
+     text-align: center;
+     font-family: 'Montserrat', monospace;
+     color: #BDBDBD;
+
+ }
+
+ @media only screen and (max-width: 600px) {
+    h2 {
+
+
+        text-align: center;
+        width: 250px;
+        height: 25px;
+        font-family: 'Inconsolata', monospace;
+        color: #333333;
+        top: 5px;
+
+
+        font-size: 30px;
+        font-weight: 700;
+        position: absolute;
+        font-style: normal;
+        line-height: 25px;
+        text-transform: uppercase;
+
+
+    }
+
+    .image, img {
+
+        left: 1px;
+        width: 370px;
+        height: auto;
+
+
+
+    }
+
+    img {
+        cursor: pointer;
+        top: 30px;
+
+    }
+
+    h3 {
+        left: auto;
+        top: 410px;
+        font-size: 47px;
+        width: 363px;
+        line-height: 40px;
+    }
+
+
+h4 {
+    left: auto;
+    top: 530px;
+    font-size: 25px;
+    width: 350px;
+    line-height: 30px;
+}
+
+.btn {
+    left: auto;
+    top: 700px;
+    font-size: 11px;
+    width: 150px;
+    height: 50px;
+    line-height: 25px;
+}
+
+p {
+    left: auto;
+    top: 750px;
+    font-size: 15px;
+    width: 350px;
+    line-height: 25px;
+}
+ }
